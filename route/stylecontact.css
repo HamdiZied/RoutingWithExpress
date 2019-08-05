@@ -1,0 +1,248 @@
+/********************************navbar*******************************************/
+.navbar{
+    background: rgb(248, 243, 227);
+    padding:10px 20px;
+    transition: all 1s ease;
+  }
+  .navbar-background{
+    padding:5px 20px;
+  }
+  .navbar-brand{
+    font-size: 30px;
+  }
+  .navbar-brand:hover{
+  color:#c52222;
+  transition: all 1s ease;
+  }
+  .nav-link:hover{
+    color:#e7510c;
+    text-decoration: none;
+    transition: all 2s ease;
+    font-size: 25px;
+  
+  }
+  .nav-link{
+    color:#7ca318;
+    font-size:18px;
+  }
+  .btn-secondary{
+    background: transparent;
+    color:#7ca318;
+    border:2px solid #7ca318;
+    font-size: 23px;
+    transition: all 2s ease;
+  
+  }
+  .btn-secondary:hover{
+    color:#e7510c;
+    border:2px solid #e7510c;
+    transform: rotate(10deg);
+  }
+  .toggler-btn{
+    border:2px solid #7ca318;
+    padding:5px;
+    transition: all 2s ease;}
+    .bar{
+      width: 30px;
+      height: 3px;
+      margin:5px;
+      background: #7ca318;
+      transition: all 0.5s ease;
+  
+  
+  }
+  .change .bar1{
+    transform: rotate(-45deg) translate(-5px,5px);
+  }
+  .change .bar2{
+    transform: rotate(-45deg) translate(-5px,5px);
+    opacity: 0;
+  }
+  .change .bar3{
+    transform: rotate(45deg) translate(-5px,-8px);
+  }
+      
+  
+  
+  
+  .logo{
+      
+      width:100px;
+  }
+  
+  
+  /*****************************header***************************************/
+  @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+   
+   
+  }
+  body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100px;
+    background-image: url("cc.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+  }
+  #contact{
+ background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* min-height: 100vh; */
+    opacity: 0.9;
+  
+  }
+
+.forms{
+    display: flex;
+    justify-content: center;  
+    border: solid;  
+    margin-top: 50px;
+    margin-right: 400px;
+    margin-left: 400px;
+    background-color: #8f9ef1
+}
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+#input[type="nom"],
+#contact input[type="Prenom"],
+#contact input[type="Address"],
+#contact input[type="email"],
+#contact input[type="password"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;}
+#contact button[type="reset"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding: 25px;
+  margin: 43px 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+fieldset {
+  border: medium none !important;
+  /* margin: 0 0 10px; */
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="number"],
+ #contact textarea {
+  width: 100%;
+  border: 2px solid #ccc;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="number"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.1s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background: #737373;
+  color: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 10px;
+}
+
+#contact button[type="reset"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #737373;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+  }
+
+#contact button[type="submit"]:hover {
+  background:#7ca318;
+  -webkit-transition: background 0.4s ease-in-out;
+  -moz-transition: background 0.4s ease-in-out;
+  transition: background-color 0.4s ease-in-out;
+}
+
+#contact button[type="reset"]:hover {
+    background:#e7510c;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+  }
+#contact button[type="submit"]:active {
+  box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.5);
+}
+.copyright {
+  text-align: center;
+}
+
+
+
+/***************footer***************/
+#back-to-top{
+  background: #c9c1ac;
+  border-radius: 10px;
+  display: inline-block;
+}
+.scrollTop{
+
+position:fixed;
+bottom:70px;
+right:10px;
+}
+.container-fluid{
+margin-bottom: -139px;
+}
